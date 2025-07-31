@@ -11,7 +11,7 @@ terraform {
   }
 }
 
-resource "aws_instance" "vk0861"{
+resource "aws_instance" "lab-10-jp"{
     ami = "ami-08a6efd148b1f7504"
     instance_type = "t2.micro"
     count = var.core_count
